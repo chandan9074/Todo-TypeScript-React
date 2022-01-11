@@ -1,8 +1,11 @@
 import './App.css';
+import React, {FC} from 'react';
+import TodoInput from './Components/TodoInput';
 
-function App() {
+const App:FC=()=> {
   return (
     <div className="App">
+      <TodoInput />
     </div>
   );
 }
